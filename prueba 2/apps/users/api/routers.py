@@ -8,5 +8,5 @@ router.register('', views.UserModelViewSet, basename='users')
 
 
 urlpatterns = [
-    path('api/v1/users', include(router.urls))
+    path('api/v1/users/', include(router.urls))
 ]

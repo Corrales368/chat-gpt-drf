@@ -8,5 +8,5 @@ router.register('', views.PostModelViewSet, basename='post')
 
 
 urlpatterns = [
-    path('api/v1/posts', include(router.urls))
+    path('api/v1/posts/', include(router.urls))
 ]
